@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/navegacionestilo.css">
+    <!-- endbuild -->
+  </head>
+
+  <body ng-app="miwebApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#/">Mi Logo</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#/">Inicio</a></li>
+              <li><a ng-href="#/blog">Blog</a></li>
+              <li><a ng-href="#/clientes">Clientes</a></li>
+              <li><a ng-href="#/contacto">Contacto</a></li>
+            
+                <li class="dropdown">
+        <a ng-href="#/redessociales" class="dropdown-toggle" data-toggle="dropdown">Redes Sociales<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a ng-href="facebook.html">Facebook</a></li> 
+          <li><a ng-href="google.html">Google +</a></li> 
+          <li><a ng-href="twitter.html">Twitter</a></li> 
+        </ul>
+      </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div ng-view=""></div>
+    <!--Marketing: Start-->
+<div class="marketing">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-responsive" src="/images/app.png" alt="movil">
+      </div>
+      <div class="col-sm-6">
+        <h3>SIEMPRE A MANO</h3><hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, architecto recusandae quam voluptates ducimus corporis eum error, magni in officiis culpa alias, labore qui temporibus nihil quisquam consequatur nesciunt! Aut!</p>
+        <a href="#" class="btn btn-large btn-primary">Quédatelo</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--Marketing :End-->
+    <!-- Panel info: Start -->
+<div class="info">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 tabbable">
+        <!-- aqui iran tabs -->
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#android">android</a></li>
+            <li><a data-toggle="tab" href="#bb">Blackberry</a></li>
+            <li><a data-toggle="tab" href="#ios">ios</a></li>
+            <li><a data-toggle="tab" href="#win">Windows</a></li>
+        </ul>
+          <div class="tab-content">
+              <div id="android" class="tab-pane fade in active">
+                
+                <p>Android &nbsp <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+              <img src="http://jscustom.theoldcomputer.com/images/manufacturers_systems/Cell-Mobile-Phone/HTC-Android/555386android.logo.png" alt=""class="pull-right"></p>
+
+              </div>
+              <div id="bb" class="tab-pane fade">
+                
+                <p>Blackberry <img src="http://www.userlogos.org/files/logos/pgranados89/sverqews.png" alt="" class="pull-right"></p>
+              </div>
+              <div id="ios" class="tab-pane fade">
+                
+                <p>ios <img src="http://obc1982.hol.es/images/ios.png" alt="" class="pull-right"></p>
+              </div>
+
+              <div id="win" class="tab-pane fade">
+                
+                <p>Windows <img  src="http://www.securitylab.ru/upload/iblock/8a1/8a1b84d5487147efee5c043466098d61.png" alt="" class="pull-right img-responsive"></p>
+              </div>
+          </div>
+      </div>
+
+      
+      <div class="col-sm-offset-2 col-sm-4">
+        <blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis impedit qui ea labore tenetur in laboriosam, magni magnam doloribus. Ullam quasi cum quos porro fugiat ut voluptates eveniet itaque cumque.</p>
+          <small>Kenny Jee, <cite>me gusta</cite> </small>
+        </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- panel info: End -->
+
+    <div class="footer">
+        <div class="container">
+          <div class="pull-left ft_space">
+          <address>
+            <h3>Tame</h3>
+            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Gregorio Gea, 61 <br>
+            &nbsp&nbsp&nbsp Mislata <br>
+            <a href="mailto:tame@formacion.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> &nbsp tame@formacion.com</a> <br> 
+            <a href="tel: 96 359 72 44"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> nbsp 96 359 72 44</a> <br>  
+          </address>
+        </div>
+
+        <div class="pull-right ft_space">
+          <img src="images/moveMe.png" alt="" class="img-responsive">
+          <p>&copy; Mi <b>copyright</b>  16</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/contacto.js"></script>
+        <script src="scripts/controllers/redessociales.js"></script>
+        <script src="scripts/controllers/clientes.js"></script>
+        <!-- endbuild -->
+       
+</body>
+</html>
